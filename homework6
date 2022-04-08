@@ -1,0 +1,4 @@
+1) Select AVG(rental_rate) from film
+2) Select COUNT(title) from film where title LIKE 'C%'
+3) Select MAX(length) from film where rental_rate = '0.99'
+4) Select COUNT(replacement_cost) from film Where length > 150
